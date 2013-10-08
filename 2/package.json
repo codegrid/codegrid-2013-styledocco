@@ -1,0 +1,12 @@
+{
+  "name": "codegrid-2013-styledocco",
+  "version": "1.0.0",
+  "description": "codegrid-2013-styledocco",
+  "author": "@geckotang",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "styledocco": "~0.6.3",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-styleguide": "~0.2.6"
+  }
+}

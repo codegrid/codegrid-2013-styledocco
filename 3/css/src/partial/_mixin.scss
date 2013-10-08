@@ -1,0 +1,28 @@
+/*
+# mixin
+
+各scssでimportする。
+
+この中に要素への指定などは書かないこと。
+
+*/
+
+
+/*
+# pointer-events
+
+マウスの振る舞いを無効にしたり有効にしたりする。
+
+<pre>
+.btn {
+  @include pointer-events;
+}
+</pre>
+
+- ``$value`` none , auto
+
+*/
+@mixin pointer-events($value:none) {
+	-webkit-pointer-events: $value;
+	pointer-events: $value;
+}
