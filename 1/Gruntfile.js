@@ -9,7 +9,10 @@ module.exports = function(grunt){
         options: {
           name: 'Project Name',
           framework: {
-            name: 'styledocco'
+            name: 'styledocco',
+            options: {
+              preprocessor: 'sass'
+            }
           },
           template: {
             include: [
